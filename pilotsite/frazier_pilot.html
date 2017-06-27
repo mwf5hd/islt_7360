@@ -1,9 +1,10 @@
-	<!DOCTYPE html>
-	<html lang="en">
-	<head>
-	<title>Marcell Frazier's Pilot of Project</title>
-	<meta charset="utf-8">
-	<style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Marcell Frazier's Pilot of Project</title>
+<meta charset="utf-8">
+
+<style>
 	body {
 	    background-color: #FFFFFF;
 	}
@@ -13,6 +14,26 @@
 	    margin: auto;
 	    width: 50%;
 	}
+
+	.dropdown {
+    	position: relative;
+    	display: inline-block;
+	}
+
+	.dropdown-content {
+    	display: none;
+   		position: absolute;
+    	background-color: #f9f9f9;
+    	min-width: 160px;
+    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    	padding: 12px 16px;
+    	z-index: 1;
+	}
+
+	.dropdown:hover .dropdown-content {
+    	display: block;
+	}
+
 	</style>
 	</head>
 	<body>
@@ -20,6 +41,13 @@
 	<div class="header">
 	  <img src="https://mwf5hd.github.io/islt_7360/finalproject/bannerlogo.png" alt="logo" style="height:150px"/>
 	</div>
+
+	<div class="dropdown">
+  <span>Mouse over me</span>
+  <div class="dropdown-content">
+    <p>Hello World!</p>
+  </div>
+</div>
 
 	<h1>Marcell Frazier's Design Document</h1>
 
