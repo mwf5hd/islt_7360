@@ -47,13 +47,35 @@
 .welcome {
     margin:auto;
     overflow: hidden;
-    background-color: #000000;
+    background-color: #FFFFFF;
     font-family: Arial;
     width:78%;
     height:48px;
     vertical-align:middle;
+    border-width: 10px;
+    border-color: #000000;
 }
 
+.col
+{
+    float: left;
+    width: 25%;
+}
+
+.last{
+    clear: left;
+}
+
+.row{
+    border: 1px solid green;
+}
+
+/* Homepage Columns CSS */
+
+.column {
+	margin:auto;
+
+}
 	</style>
 	</head>
 	<body>
@@ -88,8 +110,23 @@
 <!--Welcome Section-->
 
  <div class="welcome">
-
  </div>
+
+ <div class="row">
+    <div class="col">1</div>
+    <div class="col">2</div>
+    <div class="col">3</div>
+    <div class="col">4</div>
+    <div class="last" />
+</div>
+
+<div class="row">
+    <div class="col">5</div>
+    <div class="col">6</div>
+    <div class="col">7</div>
+    <div class="col">8</div>
+    <div class="last" />
+</div>
 
 	<h1>Marcell Frazier's Design Document</h1>
 
