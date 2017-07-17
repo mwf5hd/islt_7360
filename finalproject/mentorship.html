@@ -89,13 +89,13 @@ table, th, td {
 
 <!--Navigation Bar-->
 		<div class="navbar">
-	  <a href="https://mwf5hd.github.io/islt_7360/pilotsite/frazier_pilot.html">Home</a>
-	  <a href="https://mwf5hd.github.io/islt_7360/pilotsite/institutions.html">Institutions</a>
-	  <a href="https://mwf5hd.github.io/islt_7360/pilotsite/scholarships.html">Scholarships</a>
-	  <a href="https://mwf5hd.github.io/islt_7360/pilotsite/community.html">Community Resources</a>
-	  <a href="https://mwf5hd.github.io/islt_7360/pilotsite/mentorship.html">Ask a College Student</a>
-	  <a href="https://mwf5hd.github.io/islt_7360/pilotsite/checklist.html">Application Checklist</a>
-	  <a href="https://mwf5hd.github.io/islt_7360/pilotsite/information.html">Request Information</a>
+	  <a href="https://mwf5hd.github.io/islt_7360/finalproject/frazier_project.html">Home</a>
+	  <a href="https://mwf5hd.github.io/islt_7360/finalproject/institutions.html">Institutions</a>
+	  <a href="https://mwf5hd.github.io/islt_7360/finalproject/scholarships.html">Scholarships</a>
+	  <a href="https://mwf5hd.github.io/islt_7360/finalproject/community.html">Community Resources</a>
+	  <a href="https://mwf5hd.github.io/islt_7360/finalproject/mentorship.html">Ask a College Student</a>
+	  <a href="https://mwf5hd.github.io/islt_7360/finalproject/checklist.html">Application Checklist</a>
+	  <a href="https://mwf5hd.github.io/islt_7360/finalproject/information.html">Request Info</a>
 	 </div>
 <br>
 
@@ -103,10 +103,36 @@ table, th, td {
 <div class="container">
 <h1>Ask a College Student</h1>
 <!--
-<p>Description coming soon!</p>-->
-
+<p>Ask a Student - a form that students can fill out with their interests that will connect them to a college student in the Portland area who they can talk to about opportunities and applying (this will obviously need more back-end work than is within the scope of the class, but is an idea that I would like to look into and incorporate in future projects)-->
+<p>Do you have questions about a particular major or interest that you might want to pursue in college? Not really sure what college life is actually like? Need a mentor or someone to give you advice?<br><br><b>Fill out the form below to be matched with a current college student in the Portland area who can help you with your questions and throughout the process of applying!</b></p>
 <br>
-<p>This page is coming soon. Check back for updates!</p>
+<form action="/action_page.php">
+	<!--Personal Info:-->
+  	<fieldset>
+    	<legend>Personal Info:</legend>
+    	First name:<br><input type="text" name="firstname" value="Susie"><br>
+    	Last name:<br><input type="text" name="lastname" value="Smith"><br>
+    	Gender:<br><input type="radio" name="gender" value="male" checked> Female<br><input type="radio" name="gender" value="female"> Male<br><input type="radio" name="gender" value="other"> Would rather not say
+    	High School Graduation Year:<br><input type="text" name="gradyear" value="2018"><br>
+ 	 </fieldset>
+
+ 	 <!--Interests:-->
+  	<fieldset>
+    	<legend>Interests:</legend>
+    	Intended area of study (check all that apply):<br>
+   		<input type="checkbox" name="major1" value="engineering"> Engineering<br>
+		<input type="checkbox" name="major2" value="humanities"> Humanities (english, sociology, anthropology, etc.)<br>
+		<input type="checkbox" name="major3" value="architecture"> Architecture<br>
+		<input type="checkbox" name="major4" value="business"> Business (marketing, finance, accounting, etc.)<br>
+		<input type="checkbox" name="major5" value="science"> Science (medicine, dentistry, biology, physics, etc.)<br>
+		<input type="checkbox" name="major5" value="other"> Other (list below)<br>
+    	<input type="text" name="major6" value="other">
+    	<br><br>
+   	 <input type="submit" value="Submit">
+ 	 </fieldset>
+
+</form>
+
 </div>
 
 		<br>
@@ -114,7 +140,7 @@ table, th, td {
 		<hr>
 		<p><i><b>Page created by:</b> Marcell Frazier<br>
 		<b>Email:</b> <a href="mailto:mwf5hd@mail.missouri.edu">mwf5hd@mail.missouri.edu</a><br>
-		<b>Last updated:</b> July 1, 2017</i></p>
+		<b>Last updated:</b> July 16, 2017</i></p>
 <p>
 		    <a href="https://jigsaw.w3.org/css-validator/check/referer">
 		        <img style="border:0;width:88px;height:31px"
