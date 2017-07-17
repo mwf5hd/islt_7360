@@ -109,24 +109,36 @@ table, th, td {
 <form action="/action_page.php">
 	<!--Personal Info:-->
   	<fieldset>
-    	<legend>Personal Info:</legend>
-    	First name:<br><input type="text" name="firstname" value="Susie"><br>
-    	Last name:<br><input type="text" name="lastname" value="Smith"><br>
-    	Gender:<br><input type="radio" name="gender" value="male" checked> Female<br><input type="radio" name="gender" value="female"> Male<br><input type="radio" name="gender" value="other"> Would rather not say
-    	High School Graduation Year:<br><input type="text" name="gradyear" value="2018"><br>
- 	 </fieldset>
+    	<legend><b>PERSONAL INFO</b></legend>
+    	<b>First name:</b><br><input type="text" name="firstname"><br><br>
+    	<b>Last name:</b><br><input type="text" name="lastname"><br><br>
+    	<b>Gender:</b><br>
+    	<input type="radio" name="gender" value="female" checked="checked"> Female<br>
+    	<input type="radio" name="gender" value="male"> Male<br>
+    	<input type="radio" name="gender" value="other"> Non-binary<br><br>
+    	<b>High School Graduation Year:</b><br><br><input type="text" name="gradyear" value="2018"><br>
+ 	 </fieldset><br><br>
 
  	 <!--Interests:-->
   	<fieldset>
-    	<legend>Interests:</legend>
-    	Intended area of study (check all that apply):<br>
+    	<legend><b>INTERESTS</b></legend>
+    	<b>Intended area of study (check all that apply):<br><br>
    		<input type="checkbox" name="major1" value="engineering"> Engineering<br>
 		<input type="checkbox" name="major2" value="humanities"> Humanities (english, sociology, anthropology, etc.)<br>
 		<input type="checkbox" name="major3" value="architecture"> Architecture<br>
 		<input type="checkbox" name="major4" value="business"> Business (marketing, finance, accounting, etc.)<br>
 		<input type="checkbox" name="major5" value="science"> Science (medicine, dentistry, biology, physics, etc.)<br>
 		<input type="checkbox" name="major5" value="other"> Other (list below)<br>
-    	<input type="text" name="major6" value="other">
+    	<input type="text" name="major6">
+    	<br><br>
+
+    	<b>Extracurricular Interests<br><br>
+   		<input type="checkbox" name="interest1" value="music"> Arts (music, theatre, visual art, design, etc.)<br>
+		<input type="checkbox" name="interest2" value="athletics"> Athletics<br>
+		<input type="checkbox" name="interest3" value="service"> Community Service<br>
+		<input type="checkbox" name="interest4" value="academicclubs"> Academic Clubs<br>
+		<input type="checkbox" name="interest5" value="other"> Other (list below)<br>
+    	<input type="text" name="interest6">
     	<br><br>
    	 <input type="submit" value="Submit">
  	 </fieldset>
